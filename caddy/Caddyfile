@@ -1,0 +1,17 @@
+asir4you.cat {
+    reverse_proxy portainer:9000
+}
+
+portainer.asir4you.cat {
+    reverse_proxy portainer:9000
+
+}
+grafana.asir4you.cat {
+    reverse_proxy grafana:3000
+}
+
+www.asir4you.cat {
+    reverse_proxy cnginx:80
+}
+
+
